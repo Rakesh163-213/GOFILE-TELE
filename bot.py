@@ -20,7 +20,7 @@ def run_flask():
 flask_thread = Thread(target=run_flask)
 flask_thread.start()
 # 🔐 Replace these
-API_ID = int(os.getenv("API_ID")  # Replace with your API ID
+API_ID = int(os.getenv("API_ID")) # Replace with your API ID
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
